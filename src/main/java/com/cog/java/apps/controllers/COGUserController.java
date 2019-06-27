@@ -27,8 +27,8 @@ public class COGUserController {
 			return response;
 		}
 		final UserResponseData userResponseData = new UserResponseData();
-		userResponseData.setReferenceNumber("Home_User_0000001");
-		userResponseData.setUserId("bijoy.baral");
+		userResponseData.setReferenceNumber("Home_User_0000001_Test_Change");
+		userResponseData.setUserId("bijoy.baral_test_change");
 		response.setStatus(true);
 		response.setBaseResponseData(userResponseData);
 		return response;
